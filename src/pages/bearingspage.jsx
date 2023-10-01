@@ -16,7 +16,7 @@ const BearingsPage = ()=>{
 
     const funcSelectBearing=(e)=>{
         setInputBearing(e.target.value);
-        console.log(inputBearing);
+        
       }
 
 
@@ -27,7 +27,7 @@ const BearingsPage = ()=>{
             placeholder="наберiть номер пiдшипника..."
             onChange={funcSelectBearing}>
             </input>
-            {!flag?<h4>Нема таких пiдшипникiв в списку, зв'яжiться з нами для уточнення..</h4>:null}
+            {!flag?<h4 style={{color:"blue"}}>Нема таких пiдшипникiв в списку, зв'яжiться з нами для уточнення..</h4>:null}
             {data.map(elem => (elem.item.includes(inputBearing.toLowerCase())?
                 <Link key={elem.id} to={`/bearings/${elem.id}`}>
                     <div> {elem.item}</div>

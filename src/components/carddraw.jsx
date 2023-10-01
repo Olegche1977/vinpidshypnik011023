@@ -5,14 +5,12 @@ import { Navigate } from "react-router-dom";
 import main_obj from "../constant_main";
 
 const CardDraw = (prop)=>{
-    console.log(prop.elemId)
+    
     const [data, setData]= useState(main_obj)
     const [flag, setFlag]= useState('');
 
     const onCardClick =()=>{
-        console.log(prop.elemId)
         setFlag(prop.elemId)
-        console.log('typeof:' + typeof(flag))
     }
 
     if(flag=='0'){
@@ -22,26 +20,10 @@ const CardDraw = (prop)=>{
         return <Navigate to="/belts" />
     }
     if(flag=='2'){
-        return <Navigate to="/transportbandpage" />
+        return <Navigate to="/transportbands" />
     }
 
-    // switch  (flag) {
-    //     case 0: console.log('case 0 work');
-    //     break;
-    //     case '1': ()=>{ console.log('case 1 work'); return <Navigate to="/belts" />};
-    //     break;
-    //     case '2' : return <Navigate to="/transportbands" />;
-    //     break;
-    //     case '3' : return <Navigate to="/stoprings" />;
-    //     break;
-    //     case '4' : return <Navigate to="/gymrings" />;
-    //     break;
-    //     case '5' : return <Navigate to="/electrodes" />;
-    //     break;
-    //     case '6' : return <Navigate to="/weldingwire" />;
-    //     break;
-    //     default: console.log('sorry, thereis no such goods ')
-    // }
+    
 
     return (
         <div>

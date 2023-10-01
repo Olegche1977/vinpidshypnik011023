@@ -5,7 +5,8 @@ import BearingsPage from './pages/bearingspage';
 import SingleBearingPage from './pages/singlebearing';
 import BeltsPage from './pages/beltspage';
 import TransportBandPage from './pages/transportbandpage';
-import StopRingsPage from './pages/stoprings'
+import StopRingsPage from './pages/stoprings';
+import GymRingsPage from './pages/gymrings'
 import Layout from './components/layout';
 import NotFoundPage from './pages/notfoundpage';
 
@@ -24,8 +25,9 @@ import './App.css';
             <Route path="bearings" element={<BearingsPage/>}/>
             <Route path="bearings/:id" element={<SingleBearingPage/>}/>
             <Route path="belts" element={<BeltsPage/>}/>
-            <Route path="transportband" element={<TransportBandPage/>}/>
+            <Route path="transportbands" element={<TransportBandPage/>}/>
             <Route path="stoprings" element={<StopRingsPage/>}/>
+            <Route path="gymrings" element={<GymRingsPage/>}/>
             <Route path="*" element={<NotFoundPage/>}/>
           </Route>
         </Routes>

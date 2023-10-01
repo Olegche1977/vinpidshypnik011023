@@ -3,7 +3,7 @@ import React from "react";
 const StopRingsPage = ()=>{
     return (
         <div>
-            <h1>STop Rings Page</h1>
+            <h1>Кiльця стопорнi</h1>
         </div>
     )
 }

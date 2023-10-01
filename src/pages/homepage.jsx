@@ -6,7 +6,7 @@ const HomePage = ()=>{
     const [data, setData]  = useState(main_obj);
     return (
         <div className="mainPageContainer">
-            <h1> Our goods</h1>
+            <h1> Нашi товари:</h1>
             <div className="homeGoodsContainer">
                 {data.map((elem,index)=>
                 <CardDraw key={index} elemId ={elem.id}/>)}
