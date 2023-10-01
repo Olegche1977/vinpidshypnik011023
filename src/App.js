@@ -19,7 +19,7 @@ import './App.css';
         
         
         <Routes>
-          <Route path=process.env.PUBLIC_URL element={<Layout/>}>
+          <Route path="/" element={<Layout/>}>
             <Route index element={<HomePage/>}/>
             <Route path="bearings" element={<BearingsPage/>}/>
             <Route path="bearings/:id" element={<SingleBearingPage/>}/>
