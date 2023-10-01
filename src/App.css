@@ -26,6 +26,10 @@
 .headerInfo, .headerContacts {
   width: 300px;
   color:lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
 }
 
 .App-intro {
@@ -109,5 +113,20 @@
   width:300px
 }
 
-
-
+@media screen and (min-width: 500px) {
+  .headerInfo, .headerContacts {
+    max-width: 200px;
+    font-size: small;
+    
+  }
+}
+@media screen and (max-width: 800px) {
+  .headerInfo, .headerContacts {
+    
+    width: 100px;
+    font-size:x-small;
+  }
+  .App-header {
+    gap:10px;
+  }
+}

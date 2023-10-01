@@ -9,22 +9,25 @@ const Layout = () => {
             
                 <div className="App-header">
                     <div className="headerContacts">
-                        Contacts:
-                        Ukraine, Kiyvska, 4
-                        tel: +380682823873
-                        tel: +380677323195
-                        tel: +380675337171
-                        email:olegche1977@ukr.net
-                    
+                        
+                        <div>Our contacts:</div>
+                        <span>Ukraine, Kiyvska, 4</span>
+                        <span>tel: +380682823873</span>
+                        <span>tel: +380677323195</span>
+                        <span>tel: +380675337171</span>
+                        <span>email:olegche1977@ukr.net</span>
+                        
+                        
                     </div>
                     <div className="headerCenter">
                         <img src={logo} className="App-logo" alt="logo" />
                         <h2>"ТОВ" ВIНПIДШИПНИК</h2>
                     </div>
                     <div className="headerInfo">
-                        EDRPOY: 39840600,
-                        Privatbank m.Vinnitsya,
-                        R/r UA0000000000000000
+                        <span>EDRPOY: 39840600,</span>
+                        <span>Privatbank m.Vinnitsya,</span>
+                        <span>R/r UA0000000000000000</span>
+                        
                     </div>
                 </div>
 
