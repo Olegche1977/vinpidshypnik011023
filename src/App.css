@@ -111,7 +111,7 @@
 }
 .inputBearingsPage {
   font-size: 30px;
-  width:410px
+  width:350px;
   
 }
 
@@ -130,5 +130,9 @@
   }
   .App-header {
     gap:10px;
+  }
+  .tovHeader {
+    font-size: 20px;
+    margin-top: 20px;
   }
 }

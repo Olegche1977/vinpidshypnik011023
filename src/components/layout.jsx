@@ -21,7 +21,7 @@ const Layout = () => {
                     </div>
                     <div className="headerCenter">
                         <img src={logo} className="App-logo" alt="logo" />
-                        <h2>"ТОВ" ВIНПIДШИПНИК</h2>
+                        <h2 className = "tovHeader">ТОВ "ВIНПIДШИПНИК"</h2>
                     </div>
                     <div className="headerInfo">
                         <span>EDRPOY: 39840600,</span>

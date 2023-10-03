@@ -26,7 +26,7 @@ const BearingsPage = ()=>{
         <div>
             <h1>Роздiл пiдшипникiв</h1>
             <input className="inputBearingsPage"
-            placeholder="наберiть номер пiдшипника..."
+            placeholder="Введiть пiдшипник.."
             onChange={funcSelectBearing}>
             </input>
             {!flag?<h4 style={{color:"blue"}}>Нема таких пiдшипникiв в списку, зв'яжiться з нами для уточнення..</h4>:null}
