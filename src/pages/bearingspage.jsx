@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import {Link} from 'react-router-dom';
+// import bearings_obj from "../constant_bearings";
 import bearings_obj from "../constant_bearings";
 
 
@@ -9,10 +10,11 @@ const BearingsPage = ()=>{
     const [inputBearing, setInputBearing] = useState('');
     let flag=false;
 
-   data.forEach(elem=>{
-    if(elem.item.includes(inputBearing.toLowerCase())){
-        flag=true;
-    } })
+
+    data.forEach(elem=>{
+        if(elem.item.includes(inputBearing.toLowerCase())){
+         flag=true;
+    }})
 
     const funcSelectBearing=(e)=>{
         setInputBearing(e.target.value);
