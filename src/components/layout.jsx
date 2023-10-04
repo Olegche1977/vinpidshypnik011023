@@ -11,7 +11,7 @@ const Layout = () => {
                     <div className="headerContacts">
                         
                         <div>Our contacts:</div>
-                        <span>Ukraine, Kiyvska, 4</span>
+                        <span>21009, Ukraine, Kiyvska, 4</span>
                         <span>tel: +380682823873</span>
                         <span>tel: +380677323195</span>
                         <span>tel: +380675337171</span>
@@ -24,9 +24,10 @@ const Layout = () => {
                         <h2 className = "tovHeader">ТОВ "ВIНПIДШИПНИК"</h2>
                     </div>
                     <div className="headerInfo">
-                        <span>EDRPOY: 39840600,</span>
-                        <span>Privatbank m.Vinnitsya,</span>
-                        <span>R/r UA0000000000000000</span>
+                        <span>ЕДРПОУ 39840600,</span>
+                        <span>АКIБ</span>
+                        <span>Приватбанк, м.Вiнниця</span>
+                        <span>IПН  452843202282</span>
                         
                     </div>
                 </div>

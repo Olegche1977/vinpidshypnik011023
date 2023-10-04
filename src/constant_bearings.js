@@ -3,112 +3,119 @@ const bearings_obj= [
       id: 0,
       item: '1000095',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 1,
       item: '1000805',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 2,
       item: '1000903',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 3,
       item: '1000911(61911)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 4,
       item: '1000912 Л',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 5,
       item: '1000916',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 6,
       item: '1000922 Л',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 7,
       item: '102209',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 8,
       item: '102210 М, \n102304 М (NCL 304V)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
+      dimensions: '10*20*10'
+    },
+    {
+      id: 8.1,
+      item: '102304 М (NCL 304V)',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 9,
       item: '102307 М',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 10,
       item: '102308 М',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 11,
       item: '102309 М',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 12,
       item: '102310 M',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 13,
       item: '102409 М',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 14,
       item: '102506 М (NCL2206V) *СТ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
       id: 15,
       item: '102605',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/roller_102_series.png',
       dimensions: '10*20*10'
     },
     {
@@ -122,413 +129,413 @@ const bearings_obj= [
       id: 17,
       item: '106 *WBF',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 18,
       item: '106 *СТ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 19,
       item: '107 (6007)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 19.1,
       item: '1080088 (688 ZZ) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 20,
       item: '1080093',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 21,
       item: '1080098 *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 22,
       item: '1080099 (699 ZZ) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 23,
       item: '1080901 (6901 ZZ) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 24,
       item: '1080903 (6903 ZZ) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 25,
       item: '1080905 (6905 ZZ) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 26,
       item: '1080908 (61908 ZZ) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_metal_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 27,
       item: '108710',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/108710_type.png',
       dimensions: '10*20*10'
     },
     {
       id: 28,
       item: '110',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 29,
       item: '11205 *HARP',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 30,
       item: '11208 (1209К+H209) *СТ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 31,
       item: '11209 *8 (1210 ЕК)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 32,
       item: '11211 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 33,
       item: '11213',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 34,
       item: '11305 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 35,
       item: '11306 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 36,
       item: '11307 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 37,
       item: '113516 (22216 KCW33)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
-      dimensions: '10*20*10'
+      foto: '/datagoods/double_roller_selfcentric.png',
+      dimensions: '75x160x55'
     },
     {
       id: 38,
       item: '113615',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
-      dimensions: '10*20*10'
+      foto: '/datagoods/double_roller_selfcentric.png',
+      dimensions: '75x160x55'
     },
     {
       id: 39,
       item: '114',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 40,
       item: '11506 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 41,
       item: '116',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 42,
       item: '11609 *HARP',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '10*20*10'
     },
     {
       id: 43,
       item: '1180084 (618/4 2rs) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 44,
       item: '1180094 (619/4 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 45,
       item: '1180096 (696 2RS)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 46,
       item: '1180098 (619/8 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 47,
       item: '1180304 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 48,
       item: '1180305 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 49,
       item: '1180800 (61800 2RS)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 50,
       item: '1180801 (61801 2RS)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 51,
       item: '1180803 (61803 2RS)',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 52,
       item: '1180805 (6805 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 53,
       item: '1180900 (6900 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 54,
       item: '1180902 (6902 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 55,
       item: '1180903 (6903 2RS) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 56,
       item: '1180904 (6904 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 57,
       item: '1180905 (6905 2RS) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 58,
       item: '1180905 (6905 2RS) *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 59,
       item: '1180906 (6906 2RS) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 60,
       item: '1180907 (6907 2RS) *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball_gym_closed.png',
       dimensions: '10*20*10'
     },
     {
       id: 61,
       item: '1201 *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 62,
       item: '1204 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 63,
       item: '1205 *KINEX',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 64,
       item: '1206 *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 65,
       item: '1207 *NTE',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 66,
       item: '1207 К *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 67,
       item: '1208 *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 68,
       item: '1209 *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 69,
       item: '1210 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 70,
       item: '1210 *СТ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 71,
       item: '1211 *KG',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 72,
       item: '1211 K *СХ',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 73,
       item: '1213 *8',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/double_ball.png',
       dimensions: '10*20*10'
     },
     {
       id: 74,
       item: '122 (6022) *ХАРП',
       itemName: 'Шариковий радiальний пiдшипник',
-      foto: '/datagoods/radialbearing.png',
+      foto: '/datagoods/radial_ball.png',
       dimensions: '10*20*10'
     },
     {

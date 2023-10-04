@@ -123,11 +123,17 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .headerInfo, .headerContacts {
-    
+  .headerInfo {
+    margin-left: 5px;
     width: 100px;
     font-size:x-small;
   }
+  .headerContacts {
+    margin-right: 5px;
+    width: 100px;
+    font-size:x-small;
+  }
+
   .App-header {
     gap:10px;
   }
@@ -135,4 +141,21 @@
     font-size: 20px;
     margin-top: 20px;
   }
+}
+.bearingsListBlock {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-self: center;
+  align-items: center;
+  background-color: white;
+  width: 25%;
+  min-height: 40px;
+  /* border: 1px solid green; */
+  margin:5px;
+}
+.bearingsListContainer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
