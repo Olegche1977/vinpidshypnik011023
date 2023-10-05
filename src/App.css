@@ -12,7 +12,7 @@
   flex-direction: row;
   justify-content: center;
   background-color: #222;
-  height: 150px;
+  height: 180px;
   padding: 20px;
   color: white;
   margin-bottom: 5px;
@@ -27,9 +27,11 @@
   width: 300px;
   color:lightblue;
   display: flex;
+  font-size: 14px;
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
+  
 }
 
 .App-intro {
@@ -115,33 +117,6 @@
   
 }
 
-@media screen and (min-width: 500px) {
-  .headerInfo, .headerContacts {
-    max-width: 200px;
-    font-size: small;
-    
-  }
-}
-@media screen and (max-width: 800px) {
-  .headerInfo {
-    margin-left: 5px;
-    width: 100px;
-    font-size:x-small;
-  }
-  .headerContacts {
-    margin-right: 5px;
-    width: 100px;
-    font-size:x-small;
-  }
-
-  .App-header {
-    gap:10px;
-  }
-  .tovHeader {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-}
 .bearingsListBlock {
   display:flex;
   flex-direction:row;
@@ -149,13 +124,93 @@
   align-self: center;
   align-items: center;
   background-color: white;
-  width: 25%;
+  width: 50%;
   min-height: 40px;
-  /* border: 1px solid green; */
+  
   margin:5px;
 }
 .bearingsListContainer {
   display:flex;
   flex-direction: column;
   justify-content: center;
+}
+@media screen and (max-width: 800px) and (min-width: 500px){
+  .headerInfo {
+    margin-left: 5px;
+    width: 300px;
+    
+    font-size:small;
+    
+  }
+  .headerContacts {
+    margin-right: 5px;
+    width: 250px;
+    font-size:small;
+    
+  }
+
+  .App-header {
+    gap:10px;
+  }
+  .tovHeader {
+    font-size: 25px;
+    margin-top: 20px;
+    
+    
+  }
+}
+@media screen and (max-width: 500px) {
+  .bearingsListBlock {
+    width:80%;
+  }
+  .headerInfo {
+    margin-left: 5px;
+    min-width: 200px;
+    font-size:x-small;
+  }
+  .headerContacts {
+    margin-right: 0px;
+    padding-left: 70px;
+    min-width: 180px;
+    font-size:x-small;
+  }
+
+  .App-header {
+    gap:0px;
+  }
+  .tovHeader {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+}
+.marqueeInfinite {
+  /* margin:30px auto; */
+  /* border:1px solid grey; */
+  max-width: 100%;
+  overflow: hidden;
+  
+
+}
+.marqueeInfinite div {
+  display: flex;
+  width: 200%;
+  animation: marqueeInfinite 30s linear infinite;
+  justify-content: space-around;
+}
+.marqueeInfinite span{
+  width:100%;
+  display: flex;
+}
+.marqueeInfinite img{
+  width: 50px;
+  height: 25px;
+}
+@keyframes marqueeInfinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%)
+  }
 }

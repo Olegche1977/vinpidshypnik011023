@@ -24,7 +24,7 @@ const BearingsPage = ()=>{
     return (
         <div>
             <h1>Роздiл пiдшипникiв</h1>
-            <input className="inputBearingsPage"
+            <input id="inputId" className="inputBearingsPage"
             placeholder="Введiть пiдшипник.."
             onChange={funcSelectBearing}>
             </input>
@@ -33,12 +33,12 @@ const BearingsPage = ()=>{
             <div className="bearingsListContainer">
             {data.map(elem => (elem.item.toLowerCase().includes(inputBearing.toLowerCase())?
                 
-                <div key ={elem.id} className="bearingsListBlock">
-                    <Link key={elem.id} to={`/bearings/${elem.id}`}>
-                        <div> {elem.item}</div>
-                    </Link>
+                <Link className="bearingsListBlock" key={elem.id} to={`/bearings/${elem.id}`}>
+                    
+                    <div> {elem.item}</div>
                     <img src={elem.foto} alt='no foto' width={40}></img>
-                </div>:null
+            
+                </Link>:null
             ))}
             </div>
         </div>

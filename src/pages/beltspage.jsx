@@ -24,7 +24,7 @@ const BeltsPage = ()=>{
     return (
         <div>
             <h1>Роздiл ременiв</h1>
-            <input className="inputBearingsPage"
+            <input id="inputId" className="inputBearingsPage"
             placeholder="Введiть ремiнь.."
             onChange={funcSelectBelt}>
             </input>
@@ -33,12 +33,12 @@ const BeltsPage = ()=>{
             <div className="bearingsListContainer">
             {data.map(elem => (elem.item.toLowerCase().includes(inputBelt.toLowerCase())?
                 
-                <div key ={elem.id} className="bearingsListBlock">
-                    <Link key={elem.id} to={`/belts/${elem.id}`}>
+                    <Link className="bearingsListBlock" key={elem.id} to={`/belts/${elem.id}`}>
+                    
                         <div> {elem.item}</div>
-                    </Link>
-                    <img src={elem.foto} alt='no foto' width={40}></img>
-                </div>:null
+                        <img src={elem.foto} alt='no foto' width={40}></img>
+                    
+                    </Link>:null
             ))}
             </div>
         </div>
