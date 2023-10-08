@@ -10,6 +10,18 @@ import timken_brand from '../timken_brand.png';
 import ntn_brand from '../ntn_brand.png';
 import iko_brand from '../iko_brand.png';
 import pix_brand from '../pix_brand.png';
+import hiwin_brand from '../hivin_brand.png';
+import ezo_brand from '../ezo_brand.png';
+import koyo_brand from '../koyo_brand.png';
+import zkl_brand from '../zkl_brand.png';
+import kg_brand from '../kg_brand.png';
+import stomil_brand from '../stomil_brand.png';
+import rubena_brand from '../rubena_brand.png';
+import renold_brand from '../renold_brand.png';
+import contitech_brand from '../contitech_brand.png';
+import rollway_brand from '../rollway_brand.png';
+
+
 const Layout = () => {
     return (
         <div className="App">
@@ -45,25 +57,45 @@ const Layout = () => {
                     <div>
                         <span>
                         <img src={skf_brand } className="moveImg" alt="move" />
-                        <img src={pix_brand } className="moveImg" alt="move" />
+                        <img src={zkl_brand } className="moveImg" alt="move" />
                         <img src={iko_brand } className="moveImg" alt="move" />
-                        <img src={ntn_brand } className="moveImg" alt="move" />
+                        <img src={ezo_brand } className="moveImg" alt="move" />
                         <img src={timken_brand } className="moveImg" alt="move" />
                         <img src={nsk_brand } className="moveImg" alt="move" />
                         <img src={nachi_brand } className="moveImg" alt="move" />
+                        <img src={stomil_brand } className="moveImg" alt="move" />
                         <img src={fag_brand } className="moveImg" alt="move" />
                         <img src={asahi_brand } className="moveImg" alt="move" />
+                        <img src={hiwin_brand } className="moveImg" alt="move" />
+                        <img src={rubena_brand } className="moveImg" alt="move" />
+                        <img src={ntn_brand } className="moveImg" alt="move" />
+                        <img src={koyo_brand } className="moveImg" alt="move" />
+                        <img src={pix_brand } className="moveImg" alt="move" />
+                        <img src={kg_brand } className="moveImg" alt="move" />
+                        <img src={renold_brand } className="moveImg" alt="move" />
+                        <img src={contitech_brand } className="moveImg" alt="move" />
+                        <img src={rollway_brand } className="moveImg" alt="move" />
                         </span>
                         <span>
                         <img src={skf_brand } className="moveImg" alt="move" />
-                        <img src={pix_brand } className="moveImg" alt="move" />
+                        <img src={zkl_brand } className="moveImg" alt="move" />
                         <img src={iko_brand } className="moveImg" alt="move" />
-                        <img src={ntn_brand } className="moveImg" alt="move" />
+                        <img src={ezo_brand } className="moveImg" alt="move" />
                         <img src={timken_brand } className="moveImg" alt="move" />
                         <img src={nsk_brand } className="moveImg" alt="move" />
                         <img src={nachi_brand } className="moveImg" alt="move" />
+                        <img src={stomil_brand } className="moveImg" alt="move" />
                         <img src={fag_brand } className="moveImg" alt="move" />
                         <img src={asahi_brand } className="moveImg" alt="move" />
+                        <img src={hiwin_brand } className="moveImg" alt="move" />
+                        <img src={rubena_brand } className="moveImg" alt="move" />
+                        <img src={ntn_brand } className="moveImg" alt="move" />
+                        <img src={koyo_brand } className="moveImg" alt="move" />
+                        <img src={pix_brand } className="moveImg" alt="move" />
+                        <img src={kg_brand } className="moveImg" alt="move" />
+                        <img src={renold_brand } className="moveImg" alt="move" />
+                        <img src={contitech_brand } className="moveImg" alt="move" />
+                        <img src={rollway_brand } className="moveImg" alt="move" />
                         </span>
                     </div>
                 </div>
@@ -80,10 +112,33 @@ const Layout = () => {
 
             <Outlet/>
 
-            <footer className="footer"> tel: +380682823873
-                        tel: +380677323195
-                        tel: +380675337171
-                        email:olegche1977@ukr.net</footer>
+            <footer className="footer"> 
+                <div className="footerContacts">
+                    <div>
+                        <span  className="material-symbols-outlined">call</span>
+                        <span style={{fontSize:'16px'}}>+380682823873</span>
+                     </div>
+                     <div>
+                        <span  className="material-symbols-outlined">call</span>
+                        <span style={{fontSize:'16px'}}>+380677323195</span>     
+                    </div>
+                    <div>
+                        <span  className="material-symbols-outlined">call</span>
+                        <span style={{fontSize:'16px'}}>+380675337171</span>
+                    </div>
+                </div>
+                <div className="footerEmails">
+                    <div>
+                        <span  className="material-symbols-outlined">mail</span>   
+                        <span style={{fontSize:'16px'}}>olegche1977@ukr.net</span>       
+                    </div>
+                    <div>
+                        <span  className="material-symbols-outlined">mail</span>   
+                        <span style={{fontSize:'16px'}}>tatianatv@ukr.net</span>       
+                    </div>
+                    
+                </div>        
+            </footer>
 
         </div>
     )

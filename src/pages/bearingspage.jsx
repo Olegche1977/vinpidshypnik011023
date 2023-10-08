@@ -25,7 +25,7 @@ const BearingsPage = ()=>{
         <div>
             <h1>Роздiл пiдшипникiв</h1>
             <input id="inputId" className="inputBearingsPage"
-            placeholder="Введiть пiдшипник.."
+            placeholder="Введiть пiдшипник.." autoComplete="off"
             onChange={funcSelectBearing}>
             </input>
             {!flag?<h4 style={{color:"blue"}}>Нема таких пiдшипникiв в списку, зв'яжiться з нами для уточнення..</h4>:null}
