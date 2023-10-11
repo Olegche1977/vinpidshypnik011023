@@ -8,6 +8,8 @@ import BeltsPage from './pages/beltspage';
 import TransportBandPage from './pages/transportbandpage';
 import StopRingsPage from './pages/stoprings';
 import GymRingsPage from './pages/gymrings'
+import AboutUsPage from './pages/aboutuspage';
+
 import Layout from './components/layout';
 import NotFoundPage from './pages/notfoundpage';
 
@@ -30,6 +32,7 @@ import './App.css';
             <Route path="transportbands" element={<TransportBandPage/>}/>
             <Route path="stoprings" element={<StopRingsPage/>}/>
             <Route path="gymrings" element={<GymRingsPage/>}/>
+            <Route path="aboutus" element={<AboutUsPage/>}/>
             <Route path="*" element={<NotFoundPage/>}/>
           </Route>
         </Routes>

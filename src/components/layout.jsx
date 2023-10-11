@@ -107,6 +107,7 @@ const Layout = () => {
                     <NavLink className="navigatorItem" to="/transportbands"><button type="button" className="btn btn-primary btn-sm">СТРIЧКА ТРАНСПОРТЕРНА</button></NavLink>
                     <NavLink className="navigatorItem" to="/stoprings"><button type="button" className="btn btn-primary btn-sm">КIЛЬЦЯ СТОПОРНI</button></NavLink>
                     <NavLink className="navigatorItem" to="/gymrings"><button type="button" className="btn btn-primary btn-sm">КIЛЬЦЯ ГУМОВI</button></NavLink>
+                    <NavLink className="navigatorItem" to="/aboutus"><button type="button" className="btn btn-primary btn-sm">КОНТАКТИ</button></NavLink>
                 </div>
             </header>
 
