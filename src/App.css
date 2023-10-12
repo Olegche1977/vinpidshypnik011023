@@ -1,8 +1,10 @@
 body {
   min-width: 100vw;
- margin-left:30%;
+ 
 }
 .App {
+  min-width: 100vw;
+  margin-left: 2%;
   text-align: center;
   display:flex;
   flex-direction: column;
