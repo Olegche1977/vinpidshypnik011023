@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import adressmap from "../adress_map.png"
 
 const AboutUsPage = ()=>{
+    const [myMapClass, changeMyMapClass] = useState('adressMapImg');
+
+    function onClickMap (){
+        myMapClass=='adressMapImg'?
+        changeMyMapClass('adressMapImgMaxim'):
+        changeMyMapClass('adressMapImg')
+    }
+
     return (
         <div className="aboutUsWrapper">
             <div className="textInfo">
@@ -31,7 +39,7 @@ const AboutUsPage = ()=>{
                 </div>    
             </div>
             <div className="mapInfo">
-                <img src={adressmap} className="adressMapImg" alt="map" />
+                <img src={adressmap} onClick={onClickMap} className={` ${myMapClass}`} alt="map" />
             </div>
             
         </div>

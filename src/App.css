@@ -181,6 +181,17 @@ title {
 }
 .adressMapImg {
   width:400px;
+
+}
+.adressMapImgMaxim {
+  width: 100vw;
+}
+.adressMapImg:hover{
+  cursor: pointer;
+}
+
+.adressMapImgMaxim:hover{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) and (min-width: 500px){
