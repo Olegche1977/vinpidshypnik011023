@@ -1,3 +1,7 @@
+body {
+  min-width: 100vw;
+
+}
 .App {
   text-align: center;
   display:flex;
