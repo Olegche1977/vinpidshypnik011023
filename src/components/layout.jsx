@@ -45,10 +45,11 @@ const Layout = () => {
                         <h2 className = "tovHeader">ТОВ "ВIНПIДШИПНИК"</h2>
                     </div>
                     <div className="headerInfo">
-                        <span>ЕДРПОУ 39840600,</span>
-                        <span>АКIБ</span>
-                        <span>Приватбанк, м.Вiнниця</span>
+                        <span>ЕДРПОУ 45284325,</span>
                         <span>IПН  452843202282</span>
+                        <span>Підприємство є платником</span>
+                        <span>податку на прибуток</span>
+                        <span>на загальних підставах</span>
                         
                     </div>
                 </div>

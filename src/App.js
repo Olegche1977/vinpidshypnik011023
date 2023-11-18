@@ -6,6 +6,7 @@ import SingleBearingPage from './pages/singlebearing';
 import SingleBeltsPage from './pages/singlebelt';
 import BeltsPage from './pages/beltspage';
 import TransportBandPage from './pages/transportbandpage';
+import SingleTransportBand from './pages/singletransportband';
 import StopRingsPage from './pages/stoprings';
 import GymRingsPage from './pages/gymrings'
 import AboutUsPage from './pages/aboutuspage';
@@ -30,6 +31,7 @@ import './App.css';
             <Route path="belts" element={<BeltsPage/>}/>
             <Route path="belts/:id" element={<SingleBeltsPage/>}/>
             <Route path="transportbands" element={<TransportBandPage/>}/>
+            <Route path="transportbands/:id" element={<SingleTransportBand/>}/>
             <Route path="stoprings" element={<StopRingsPage/>}/>
             <Route path="gymrings" element={<GymRingsPage/>}/>
             <Route path="aboutus" element={<AboutUsPage/>}/>
