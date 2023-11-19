@@ -20,7 +20,28 @@ const CardDraw = (prop)=>{
         return <Navigate to="/belts" />
     }
     if(flag=='2'){
+        return <Navigate to="/seals" />
+    }
+    if(flag=='3'){
         return <Navigate to="/transportbands" />
+    }
+    if(flag=='4'){
+        return <Navigate to="/stoprings" />
+    }
+    if(flag=='5'){
+        return <Navigate to="/gymrings" />
+    }
+    if(flag=='6'){
+        return <Navigate to="/electrodes" />
+    }
+    if(flag=='7'){
+        return <Navigate to="/weldingwire" />
+    }
+    if(flag=='8'){
+        return <Navigate to="/chains" />
+    }
+    if(flag=='9'){
+        return <Navigate to="/reductors" />
     }
 
     

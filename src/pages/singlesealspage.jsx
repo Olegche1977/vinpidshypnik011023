@@ -2,22 +2,22 @@ import React from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
-import transportbands_obj from "../constant_transportbands";
+import seals_obj from "../constant_seals";
 
 
-const SingleTransportBand = ()=>{
-    const [data, setData]= useState(transportbands_obj);
+const SingleSealsPage = ()=>{
+    const [data, setData]= useState(seals_obj);
     const {id} = useParams();
     
 
     return (
         <div>
             
-          {data.map((elem,index)=>elem.id==id?
-            <div key={index} className="singleCardDraw">
-                <h4>{elem.itemName} </h4>
+          {data.map(elem=>elem.id==id?
+            <div key={elem.id} className="singleCardDraw">
+                <h4>{elem.itemName}</h4>
                 <img src={elem.foto} alt='no foto' width={200}></img>
-                <h4>Розмiри стрічки: {elem.dimensions}</h4>
+                <h4>Розмiри : {elem.dimensions}</h4>
                 <h3 style={{color:"blue"}}>зв'яжiться з нами для уточнення варiантiв виробникiв i цiн..</h3>
             </div>
         :null
@@ -27,4 +27,4 @@ const SingleTransportBand = ()=>{
     )
 }
 
-export default SingleTransportBand;
+export default SingleSealsPage;

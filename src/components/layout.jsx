@@ -105,9 +105,14 @@ const Layout = () => {
                 <NavLink className="navigatorItem" to="/"><button type="button" className="btn btn-primary btn-sm">ВСI ТОВАРИ</button></NavLink>
                     <NavLink className="navigatorItem" to="/bearings"><button type="button" className="btn btn-primary btn-sm">ПIДШИПНИКИ</button></NavLink>
                     <NavLink className="navigatorItem" to="/belts"><button type="button" className="btn btn-primary btn-sm">РЕМЕНI</button></NavLink>
+                    <NavLink className="navigatorItem" to="/seals"><button type="button" className="btn btn-primary btn-sm">САЛЬНИКИ</button></NavLink>
                     <NavLink className="navigatorItem" to="/transportbands"><button type="button" className="btn btn-primary btn-sm">СТРIЧКА ТРАНСПОРТЕРНА</button></NavLink>
                     <NavLink className="navigatorItem" to="/stoprings"><button type="button" className="btn btn-primary btn-sm">КIЛЬЦЯ СТОПОРНI</button></NavLink>
                     <NavLink className="navigatorItem" to="/gymrings"><button type="button" className="btn btn-primary btn-sm">КIЛЬЦЯ ГУМОВI</button></NavLink>
+                    <NavLink className="navigatorItem" to="/electrodes"><button type="button" className="btn btn-primary btn-sm">ЕЛЕКТРОДИ</button></NavLink>
+                    <NavLink className="navigatorItem" to="/weldingwire"><button type="button" className="btn btn-primary btn-sm">ДРІТ ЗВАРЮВАЛЬНИЙ</button></NavLink>
+                    <NavLink className="navigatorItem" to="/chains"><button type="button" className="btn btn-primary btn-sm">ЛАНЦЮГИ</button></NavLink>
+                    <NavLink className="navigatorItem" to="/reductors"><button type="button" className="btn btn-primary btn-sm">РЕДУКТОРИ</button></NavLink>
                     <NavLink className="navigatorItem" to="/aboutus"><button type="button" className="btn btn-primary btn-sm">КОНТАКТИ</button></NavLink>
                 </div>
             </header>
