@@ -8,13 +8,18 @@ import BeltsPage from './pages/beltspage';
 import TransportBandPage from './pages/transportbandpage';
 import SingleTransportBand from './pages/singletransportband';
 import StopRingsPage from './pages/stoprings';
+import SingleStopRingPage from './pages/singlestopring';
 import GymRingsPage from './pages/gymrings'
+import SingleGymRingPage from './pages/singlegymring'
 import SealsPage from './pages/sealspage';
 import SingleSealsPage from './pages/singlesealspage'
 import AboutUsPage from './pages/aboutuspage';
 import ElectrodesPage from './pages/electrodes';
+import SingleElectrodesPage from './pages/singleelectrodes';
 import WeldingWirePage from './pages/weldingwire';
 import ChainsPage from './pages/chains';
+import SingleChainsPage from './pages/singlechains';
+import SingleReductorPage from './pages/singlereductor';
 import ReductorsPage from './pages/reductors';
 
 import Layout from './components/layout';
@@ -41,11 +46,16 @@ import './App.css';
             <Route path="transportbands" element={<TransportBandPage/>}/>
             <Route path="transportbands/:id" element={<SingleTransportBand/>}/>
             <Route path="stoprings" element={<StopRingsPage/>}/>
+            <Route path="stoprings/:id" element={<SingleStopRingPage/>}/>
             <Route path="gymrings" element={<GymRingsPage/>}/>
+            <Route path="gymrings/:id" element={<SingleGymRingPage/>}/>
             <Route path="electrodes" element={<ElectrodesPage/>}/>
+            <Route path="electrodes/:id" element={<SingleElectrodesPage/>}/>
             <Route path="weldingwire" element={<WeldingWirePage/>}/>
             <Route path="chains" element={<ChainsPage/>}/>
+            <Route path="chains/:id" element={<SingleChainsPage/>}/>
             <Route path="reductors" element={<ReductorsPage/>}/>
+            <Route path="reductors/:id" element={<SingleReductorPage/>}/>
             <Route path="aboutus" element={<AboutUsPage/>}/>
             <Route path="*" element={<NotFoundPage/>}/>
           </Route>
