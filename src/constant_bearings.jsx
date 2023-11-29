@@ -217,11 +217,32 @@ const bearings_obj= [
       dimensions: '50*80*16'
     },
     {
+      id: 28.1,
+      item: '111 (6011)',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/radial_ball.png',
+      dimensions: '55*90*18'
+    },
+    {
+      id: 28.9,
+      item: '11204(1205К+Н205) *HARP',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '20*52*15/25'
+    },
+    {
       id: 29,
       item: '11205 (1206К+Н206) *HARP',
       itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
       foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '25*62*16/26'
+    },
+    {
+      id: 29.1,
+      item: '11206 (1207К+Н207) *HARP',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '30*72*17/27'
     },
     {
       id: 30,
@@ -238,6 +259,13 @@ const bearings_obj= [
       dimensions: '45*90*20/35'
     },
     {
+      id: 31.1,
+      item: '11210 (1211К+Н211)',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '50*100*21/35'
+    },
+    {
       id: 32,
       item: '11211 (1212К+Н212) *8',
       itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
@@ -245,11 +273,53 @@ const bearings_obj= [
       dimensions: '55*110*22/38'
     },
     {
+      id: 32.1,
+      item: '11212 (1213К+Н213) *8',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '60*120*23/38'
+    },
+    {
       id: 33,
       item: '11213 (1215К+Н215)',
       itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
       foto: '/datagoods/double_ball_vtulka_11205.png',
       dimensions: '65*130*25/43'
+    },
+    {
+      id: 33.1,
+      item: '11214(1216К+Н216)',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '70*140*26/43'
+    },
+    {
+      id: 33.11,
+      item: '11215(1217К+Н217)',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '75*150*28/46'
+    },
+    {
+      id: 33.111,
+      item: '11216(1218К+Н218)',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '80*160*30/52'
+    },
+    {
+      id: 33.1111,
+      item: '11218(1220К+Н220)',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '90*180*34/48'
+    },
+    {
+      id: 33.11111,
+      item: '11220(1222К+Н222)',
+      itemName: 'Шариковий двохрядний сферичний пiдшипник з втулкою',
+      foto: '/datagoods/double_ball_vtulka_11205.png',
+      dimensions: '100*200*38/48'
     },
     {
       id: 34,
@@ -786,6 +856,28 @@ const bearings_obj= [
     }
     ,
     {
+      id: 108.1,
+      item: '1580204 ',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type580205.png',
+      dimensions: '20*47*14'
+    },
+
+    {
+      id: 108.11,
+      item: '1580205 *8',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type580205.png',
+      dimensions: '25*52*15'
+    },
+    {
+      id: 108.111,
+      item: '1580206 *8',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type580205.png',
+      dimensions: '30*62*18'
+    },
+    {
       id: 108,
       item: '1580207 *8',
       itemName: 'Шариковий радiальний пiдшипник',
@@ -793,6 +885,22 @@ const bearings_obj= [
       dimensions: '35*72*20'
     }
     ,
+    
+    {
+      id: 108.1111,
+      item: '1580209 ',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type580205.png',
+      dimensions: '45*85*21'
+    },
+    {
+      id: 108.11111,
+      item: '1580211 *8',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type580205.png',
+      dimensions: '55*100*23'
+  
+  },
     {
       id: 109,
       item: '1580207 АКС17 *ГПЗ',
@@ -850,6 +958,13 @@ const bearings_obj= [
     }
     ,
     {
+      id: 115.9,
+      item: '1680204 ',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type1680205.png',
+      dimensions: '25*52*16/29'
+    },
+    {
       id: 116,
       item: '1680205 НК7С17 *4',
       itemName: 'Шариковий радiальний пiдшипник',
@@ -857,6 +972,30 @@ const bearings_obj= [
       dimensions: '25*62*18/31'
     }
     ,
+
+    {
+      id: 116.1,
+      item: '1680206 A1T17 ',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type1680205.png',
+      dimensions: '30*72*20/35'
+    },
+  
+    {
+      id: 116.11,
+      item: '1680207 ',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type1680205.png',
+      dimensions: '35*80*21/36'
+    },
+  
+    {
+      id: 116.111,
+      item: '1680208 ',
+      itemName: 'Шариковий радiальний пiдшипник',
+      foto: '/datagoods/ball_spherical_type1680205.png',
+      dimensions: '40*85*21/39'
+    },
     {
       id: 117,
       item: '170412 (412NRM)',
@@ -6830,6 +6969,301 @@ const bearings_obj= [
       itemName: 'Комбінований шариковий опорний підшипник',
       foto: '/datagoods/combined_type178811.png',
       dimensions: '55*90*44'
+    },
+
+    {
+      id: 862.1,
+      item: '178812 (234412) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '60*95*44'
+    },
+  
+    {
+      id: 862.11,
+      item: '178813 (234413) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '65*100*44'
+    },
+  
+    {
+      id: 862.111,
+      item: '178815 (234415) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '75*115*48'
+    },
+  
+    {
+      id: 862.1111,
+      item: '178816 (234416) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '80*125*54'
+    },
+  
+    {
+      id: 862.11111,
+      item: '178817 (234417) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '85*130*54'
+    },
+    {
+      id: 862.111111,
+      item: '178818 (234418) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '90*140*60'
+    },
+    {
+      id: 862.2,
+      item: '178819 (234419) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '95*145*60'
+    },
+  
+    {
+      id: 862.21,
+      item: '178820 (234420) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '100*150*60'
+    },
+  
+    {
+      id: 862.211,
+      item: '178822 (234422) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '110*170*72'
+    },
+    {
+      id: 862.2111,
+      item: '178824 (234424) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '120*180*72'
+    },
+    {
+      id: 862.21111,
+      item: '178826 (234426) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '130*200*84'
+    },
+  
+    {
+      id: 862.22,
+      item: '178828 (234428) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '140*210*84'
+    },
+    {
+      id: 862.221,
+      item: '178830 (234430) ',
+      itemName: 'Шариковий опорний комбінований підшипник',
+      foto: '/datagoods/combined_type178811.png',
+      dimensions: '150*225*90'
+    },
+    {
+      id: 863,
+      item: '4-504704 (ZARN2052TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '20*52/42*46'
+    },
+    {
+      id:864,
+      item: '4-504705 (ZARN2557TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '25*57/47*50'
+    },
+    {
+      id: 865,
+      item: '4-504706 (ZARN3062TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '30*62/52*50'
+    },
+    {
+      id: 866,
+      item: '4-504707 (ZARN3570TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '35*70/60*54'
+    },
+    {
+      id: 867,
+      item: '4-504708 (ZARN4075TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '40*75/65*54'
+    },
+    {
+      id: 868,
+      item: '4-504709 (ZARN4580TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '45*80/70*60'
+    },
+    {
+      id: 869,
+      item: '4-504710 (ZARN4580TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '50*90/78*60'
+    },
+    {
+      id: 870,
+      item: '4-504810K1',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '50*115*78'
+    },
+    {
+      id: 871,
+      item: '4-504905 (ZARN2572TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '25*72/62*60'
+    },
+    {
+      id: 872,
+      item: '4-504906 (ZARN3080TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '35*85/73*66'
+    },
+    {
+      id: 873,
+      item: '4-504907 (ZARN3585TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '35*85/73*66'
+    },
+    {
+      id: 874,
+      item: '4-504909 (ZARN45105TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '45*105/90*82'
+    },
+    {
+      id: 875,
+      item: '4-504910 (ZARN50110TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '50*110/95*82'
+    },
+    {
+      id: 876,
+      item: '4-504911 (ZARN55115TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '55*115/100*82'
+    },
+    {
+      id: 877,
+      item: '4-504912 (ZARN60120TN/P4) ',
+      itemName: 'Роліковий опорний комбінований підшипник',
+      foto: '/datagoods/thrust_combined_type504706.png',
+      dimensions: '60*120/105*82'
+    },
+    {
+      id: 878,
+      item: '4-9105 (81105M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '25*42*11'
+    },
+    {
+      id: 879,
+      item: '4-9106 (81106M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '30*47*11'
+    },
+    {
+      id: 880,
+      item: '4-9107 (81107M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '35*52*12'
+    },
+    {
+      id:881,
+      item: '4-9108 (81108M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '40*60*13'
+    },
+    {
+      id: 882,
+      item: '4-9109 (81109M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '45*65*14'
+    },
+    {
+      id: 883,
+      item: '4-9110 (81110M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '50*70*14'
+    },
+    {
+      id: 884,
+      item: '4-9112 (81112M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '60*85*17'
+    },
+    {
+      id: 885,
+      item: '4-9113 (81113M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '65*90*18'
+    },
+    {
+      id: 886,
+      item: '4-9114 (81114M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '70*95*18'
+    },
+    {
+      id: 887,
+      item: '4-9115 (81115M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '75*100*19'
+    },
+    {
+      id: 888,
+      item: '4-9116 (81116M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '80*105*19'
+    },
+    {
+      id: 889,
+      item: '4-9117 (81117M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '85*110*19'
+    },
+    {
+      id: 890,
+      item: '4-9118 (81118M) ',
+      itemName: 'Роліковий опорний підшипник',
+      foto: '/datagoods/thrust_roller.png',
+      dimensions: '90*120*22'
     },
     
   ]
