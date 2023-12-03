@@ -922,7 +922,7 @@ const bearings_obj= [
       item: '1607 (2307) *8',
       itemName: 'Шариковий двохрядний радiально-сферичний пiдшипник',
       foto: '/datagoods/double_ball_selfcentric.png',
-      dimensions: '10*20*10'
+      dimensions: '35*80*31'
     }
     ,
     {
