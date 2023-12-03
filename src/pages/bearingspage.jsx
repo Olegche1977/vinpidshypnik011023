@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import { useState } from "react";
 import {Link} from 'react-router-dom';
 import bearings_obj from "../constant_bearings";
+import {Context} from "../components/context"
 
 
 const BearingsPage = ()=>{
+    const {searchBearing, setSearchBearing} = useContext(Context);
+    const {searchBearingSizes, setSearchBearingSizes} = useContext(Context)
     const [data, setData]= useState(bearings_obj);
-    const [inputBearing, setInputBearing] = useState('');
-    const [inputBearingSizes, setInputBearingSizes] = useState('');
+    const [inputBearing, setInputBearing] = useState(searchBearing);
+    const [inputBearingSizes, setInputBearingSizes] = useState(searchBearingSizes);
+
+
     let flag=false;
     let flagS=false;
     let flagSize=false;
@@ -27,10 +32,13 @@ const BearingsPage = ()=>{
 
     const funcSelectBearing=(e)=>{
         setInputBearing(e.target.value);
+        setSearchBearing(e.target.value)
         
       }
+
     const funcSelectBearingBySizes=(e)=>{
         setInputBearingSizes(e.target.value);
+        setSearchBearingSizes(e.target.value)
         
       }
 
@@ -39,18 +47,23 @@ const BearingsPage = ()=>{
             <h1>Роздiл пiдшипникiв</h1>
             <input id="inputId" 
                    className={inputBearingSizes.length>0?"inputBearingsPageDisabled":"inputBearingsPage"}
-                   placeholder="Пошук по номеру.." 
+                   placeholder={inputBearing.length>0?`${inputBearing}`:"Пошук по номеру.."} 
                    autoComplete="off"
                    disabled={inputBearingSizes.length>0?"disabled":""}
-                   onChange={funcSelectBearing}>
+                   onChange={funcSelectBearing}
+                   onClick={funcSelectBearing}
+                >
+                    
             </input>
 
             <input id="inputSizezId" 
                    className={inputBearing.length>0?"inputBearingsPageDisabled":"inputBearingsPage"}
-                   placeholder="Пошук по розмірах.."
+                   placeholder={inputBearingSizes.length>0?`${inputBearingSizes}`:"Пошук по розмірах.."}
                    autoComplete="off"
                    disabled={inputBearing.length>0?"disabled":""}
-                   onChange={funcSelectBearingBySizes}>
+                   onChange={funcSelectBearingBySizes}
+                   onClick={funcSelectBearingBySizes}
+                >
             </input>
 
             {!flag?<h4 style={{color:"blue"}}>Нема таких пiдшипникiв в списку, зв'яжiться з нами для уточнення..</h4>:null}

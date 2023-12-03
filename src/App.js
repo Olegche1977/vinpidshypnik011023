@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState} from 'react';
 import {Routes, Route} from 'react-router-dom'
 import HomePage from './pages/homepage';
 import BearingsPage from './pages/bearingspage';
@@ -21,6 +21,7 @@ import ChainsPage from './pages/chains';
 import SingleChainsPage from './pages/singlechains';
 import SingleReductorPage from './pages/singlereductor';
 import ReductorsPage from './pages/reductors';
+import {Context} from "../src/components/context"
 
 import Layout from './components/layout';
 import NotFoundPage from './pages/notfoundpage';
@@ -29,11 +30,20 @@ import logo from './logo.svg';
 import './App.css';
 
  function App() {
-  
+    const [searchBearing, setSearchBearing] = useState('');
+    const [searchBearingSizes, setSearchBearingSizes]= useState('');
+
     return (
       <div>
         
-        
+       <Context.Provider
+              value={{
+                searchBearing,
+                setSearchBearing,
+                searchBearingSizes,
+                setSearchBearingSizes
+              }}
+              >
         <Routes>
           <Route path='/' element={<Layout/>}>
             <Route index element={<HomePage/>}/>
@@ -60,7 +70,7 @@ import './App.css';
             <Route path="*" element={<NotFoundPage/>}/>
           </Route>
         </Routes>
-
+      </Context.Provider>   
 
       </div>
     );

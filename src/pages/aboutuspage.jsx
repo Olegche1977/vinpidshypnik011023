@@ -14,7 +14,7 @@ const AboutUsPage = ()=>{
         <div className="aboutUsWrapper">
             <div className="textInfo">
                 <div>
-                    <div style={{fontWeight:"bold"}}>ТОВ "Вiнпiдшипник" вiтаэ Вас!</div>
+                    <div style={{fontWeight:"bold"}}>ТОВ "Вiнпiдшипник" вiтає Вас!</div>
                 </div>
                 <div style={{backgroundColor:"#fef2eb"}}>
                     <div>Наша адреса: 21009, м. Вiнниця, вул. Киiвська, 4</div>
@@ -30,12 +30,15 @@ const AboutUsPage = ()=>{
                     <div style={{fontWeight:"bold"}}>Будем радi запропонувати Вам наступнi товари:</div>
                     <div>ПIДШИПНИКИ</div>
                     <div>РЕМЕНI</div>
+                    <div>САЛЬНИКИ</div>
                     <div>СТРIЧКА ТРАНСПОРТЕРНА</div>
                     <div>КIЛЬЦЯ СТОПОРНI</div>
                     <div>КIЛЬЦЯ ГУМОВI</div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>ЛАНЦЮГИ ПРИВІДНІ</div>
+                    <div>ЗВАРЮВАЛЬНИЙ ДРІТ ТА ЕЛЕКТРОДИ </div>
+                    <div>РЕДУКТОРИ РІЗНИХ ТИПІВ</div>
+                    <div>ГІДРО ТА ПНЕВМОМАНЖЕТИ</div>
+                    <div>ТА БАГАТО ІНШОГО</div>
                 </div>    
             </div>
             <div className="mapInfo">
